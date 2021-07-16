@@ -1,0 +1,585 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: url(images//img1.jpg) no-repeat center center/cover;
+    height: 700px;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    
+}
+::selection{
+    background-color: black;
+    color: blueviolet;
+}
+
+/* Topbar */
+
+.topbar{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+   column-gap: 1rem;
+
+}
+
+.box{
+    /* background: url(images//top.jpg) no-repeat center center/cover; */
+    background-color: black;
+    /* border: 2px solid black; */
+    margin: -8px;
+    text-align: center;
+    justify-content: center;
+   
+   
+}
+
+.box:first-child{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding: 12px;
+    margin: 0px 0px;
+    
+}
+
+.topheading{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Playball', cursive;
+    text-align: center;
+    justify-content: center;
+    cursor: none;
+}
+
+ /* Background Image */
+
+/* img{
+    width: 102%;
+    margin: 7px -9px;
+    height: 100%;
+} */
+
+/* header */
+
+.header{
+    display: flex;
+}
+
+.logo{
+    height: 136px;
+    filter: invert(100%);
+    margin: -19px 0px;
+}
+
+
+/* //-----------------------------------------Navigation-------------------------------------// */
+
+.navbar{
+    display: flex;
+    position: relative;
+    /* margin: 22px 256px; */
+    margin: 10px 163px
+
+}
+
+.navbar ul{
+    display: flex;
+    /* margin: 0px auto; */
+    list-style: none;
+  /* margin: 5px 5px; */
+
+}
+
+.navbar ul li{
+    display: block;
+    padding: 3px 10px;
+
+    /* padding: 3px 14px; */
+    /* padding: 3px 15px; */
+    /* border: 2px solid red;
+    border-radius: 10px; */
+  
+}
+
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Baloo 2', cursive;
+    padding: 0px 5px;
+    
+   
+}
+
+.navbar ul li a:hover{
+    /* color: black; */
+    color: #ffae00;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    /* padding: 2px; */
+  
+}
+
+/* //---------------------------Button----------------------------------// */
+
+.button{
+display: flex;
+/* margin: 10px 10px; */
+margin: 37px 47px;
+}
+
+.btn{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Baloo 2', cursive;
+    padding: 0px 11px;
+}
+.btn1{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Baloo 2', cursive;
+    padding: 0px 11px;
+}
+
+.btn:hover{
+    color: #ffae00 ;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+.btn1:hover{
+    color: #ffae00 ;
+
+}
+
+/*---------------------------------------- Main Heading Section---------------------------------------- */
+
+
+.heading-box{
+    position: relative;
+    /* border: 2px solid red; */
+    height: 387px;
+    width: 395px;
+    left: 755px;
+    top: 16px;
+    margin: 26px 34px;
+    text-align: center;
+    justify-content: center;
+
+
+    /* display: flex; */
+    /* left: 723px;
+    top: -5px; */
+    /* float: right; */
+   
+}
+/* .heading-box{
+    display: flex;
+    position: relative;
+    /* flex-wrap: wrap-reverse;
+    flex-direction: row-reverse; */
+    /* border: 2px solid red;
+    height: 387px;
+    width: 395px;
+    float: right;
+    margin: 26px 34px;
+    text-align: center;
+    justify-content: center; } */
+   
+
+
+/* .bottom{
+   
+} */
+
+h1{
+    font-size: 2.3rem;
+    color: white;
+    font-family: 'Baloo 2', cursive;
+}
+
+h1:hover{
+    color: #ffae00 ;
+    cursor: pointer;
+}
+
+p{
+    font-size: 20px;
+    color: #ffae00 ;
+    font-family: 'Playball', cursive;
+    
+}
+
+.btn2{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Baloo 2', cursive;
+    padding: 0px 11px;
+    background-color: #ffae00;
+    color: black;
+    border-radius: 5px;
+}
+
+.btn2:hover{
+    background: transparent;
+    color: #ffae00 ;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+/* ////------------------------//Secoond Section For Quotation------------------------// */
+
+
+.quotation{
+    background: url(images//ice.jpg) no-repeat center center/cover;
+    display: inline-block;
+    position: relative;
+    /* height: 359px; */
+    height: 395px;
+    width: 100%;
+    margin-top: 207px;
+    /* margin-top: 159px; */
+    /* max-width: 100%; */
+    top: 0px;
+    right: 0%;
+    left: 0px;
+    /* margin: 39px -3px;
+     */
+    
+    /* border: 2px solid red; */
+    /* height: 292px; */
+    /* background-color: #989a9e54; */
+    /* top: 167px; */
+    /* top: 171px;
+    left: 432px; */
+
+}
+
+ .container{
+    /* border: 2px solid black; */
+    display: inline-block;
+    position: relative;
+    left: 242px;
+    top: -4px;
+    
+    /* left: 325px; */
+    /* left: 266px; */
+    /* left: 437px; */
+    /* top: 42px; */
+    /* margin: 67px 411px; */
+    /* height: 337px;
+    width: 501px; */
+} 
+
+ .quote{
+       /* border: 2px solid purple; */
+       border: 2px solid white;
+       border-radius: 8px;
+       display: inline-block;
+       position: relative;
+       padding: 8px 23px;
+       margin: 18px 7px;
+       height: 186px;
+       width: 186px;
+       
+       /* top: 171px;
+       left: 432px; */
+       /* height: 100px;
+       width: 100px; */
+} 
+
+#QAP{
+    text-align: center;
+    color: black;
+    /* color: white; */
+}
+#QAP:hover{
+    text-align: center;
+    color: purple ;
+    text-decoration: underline;
+}
+
+.QAP{
+    font-size: 20px;
+   /* color: white; */
+    color: black ;
+    font-family: 'Playball', cursive;
+}
+
+
+/* ////------------------------//Third Section For Portfolio------------------------// */
+
+
+.portfolio{
+    background: url(images//Mass.jpg) no-repeat center center/cover;
+   
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    /* border: 2px solid green; */
+    height: 940px;
+    /* height: 816px; */
+    /* height: 360px; */
+    /* height: 650px */
+    
+}
+
+.h2-primary{
+    /* text-decoration: underline; */
+    text-decoration-color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Baloo 2', cursive;
+    padding-top: 32px;
+}
+
+.portbox{
+    margin: 22px 173px;
+    /* margin: 29px 214px; */
+    /* margin: 31px 251px; */
+    /* margin: 39px 278px */
+
+    
+    
+}
+
+.port{
+    /* background-color:#8faae993; */
+    background-color: rgba(187, 146, 187, 0.467);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 5px;
+    /* border: 2px solid rgb(0, 52, 223); */
+    height: 783px;
+    width: 868px;
+    padding: 19px;
+    /* height: 659px; */
+    /* height: 592px; */
+    /* height: 486px;
+    width: 802px; */
+
+}
+.imgbox{
+     display: inline-block;
+     width: 220px;
+     height: 220px;
+     left: 200px;
+     margin: 69px 21px;
+     transition: all 1s ease-in-out .3s;
+     /* position: relative; */
+     /* border: 2px solid palevioletred; */
+     /* border-radius: 8px; */
+     /* margin: 47px 35px; */
+    /* margin: 11px 21px; */
+}
+
+.imgbox:hover{
+    background-color: green;
+    /* height: 400px;
+    width: 400px; */
+    border-radius: 20px;
+    /* font-size: 45px; */
+}
+
+
+.imgT{
+    width: 220px;
+     height: 220px;
+     border-radius: 8px;
+     cursor: pointer;
+     transition: all 1s ease-in-out .3s;
+     
+
+}
+
+.imgT:hover{
+     border-radius: 15px;
+     height: 280px;
+     width: 280px;
+}
+
+h4{
+    color: #ffae00 ;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Baloo 2', cursive; 
+    margin: 18px auto;
+}
+
+.imgp{
+    color: white;
+    margin: -17px 37px;
+    text-align: center;
+    /* transition: all 1s ease-in-out .3s; */
+
+
+}
+
+/* ////------------------------//Fourth Section For Blogs------------------------// */
+
+ .blodportion{
+    display: inline-block;
+   
+}
+.blog{
+    display: inline-block;
+    /* grid-template-columns:repeat(3, 0.5fr);
+    grid-template-rows:repeat(3, 0.5fr); */
+    /* border: 2px solid blue; */
+    background: url(Images//canon.jpg) no-repeat center center/cover;
+    height: 660px;
+    /* height: 500px; */
+    /* width: 1100px; */
+    /* width: 1255px; */
+    width: 100%;
+    margin: 24px auto;
+    /* padding: 109px 91px; */
+    /* padding: 57px 217px;  */
+   
+}
+   
+.blogpost{
+    
+    display: inline-block;
+    /* border: 2px solid red; */
+    height: 306px;
+    width: 318px;
+    /* height: 200px;
+    width: 200px;     */
+    /* margin: 11px 12px; */
+    margin: 13px 43px;
+    /* margin: 144px 44px; */
+    justify-content: center;
+    text-align: center;
+    /* right:300px; */
+    
+}
+
+.blogimg{
+    height: 306px;
+    width: 318px;
+    border-radius: 8px;
+}
+
+
+.h4-primary{
+    color: black;
+    font-size: 25px;
+}
+
+.blogP{
+    color: white;
+}
+
+/* //-----------------------------Last Section for Footer-------------------------------------// */
+
+
+
+.foot{
+    /* border: 2px solid blueviolet; */
+    /* height: 200px; */
+    background-color: #ffae00  ;
+    height: 261px;
+
+}
+
+.lastportion{
+    /* border: 2px solid brown; */
+    display: block;
+    /* height: 400px; */
+    height: 196px;
+    width: 400px;
+    display: inline-block;
+    margin-left: 140px;
+    /* margin-left: 14px; */
+
+}
+.footP{
+    text-align: center;
+    justify-content: center;
+    /* color: white; */
+    color: black;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.icon{
+    display: flex;
+    position: relative;
+    /* flex-direction: row-reverse; */
+    /* border: 2px solid royalblue; */
+    height: 80px;
+    width: 195px;
+    /* height: 196px;
+    width: 282px; */
+    left: 895px;
+    top: -200px;
+
+}
+
+h6{
+    font-size: 16px;
+    font-family: 'Playball', cursive;
+    margin: 26px 9px;
+
+}
+
+
+.copyright{
+    /* border: 2px solid red; */
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    /* top: 12px; */
+    font-family: 'Baloo 2', cursive;
+    color: white;
+    background-color: black;
+}
+
+
+
+/* .imgp:hover{
+    text-align: center;
+    border-radius: 15px;
+    height: 280px;
+    width: 280px;
+} */
+/* .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 2px solid green;
+    margin: 100px;
+}
+
+.quote{
+    border: 2px solid rebeccapurple;
+    height: 100px;
+    width: 100px;
+}
+ */
+
+
+ /* #404853 */
+ /* #989a9e54 */
+
+
+
+ /* color: #ffae00 ; */
+
+/* 
+
+/* UTILITIES */
+/* font-family: 'Baloo 2', cursive; */
+/* font-family: 'Great Vibes', cursive; */
+/* font-family: 'Playball', cursive; */
+/* 

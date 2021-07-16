@@ -1,0 +1,356 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    /* background: url(images//img1.jpg) no-repeat center center/cover; */
+    /* background-color: cornflowerblue; */
+    height: 700px;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    
+}
+::selection{
+    background-color: black;
+    color: blueviolet;
+}
+
+/* Topbar */
+
+.topbar{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+   column-gap: 1rem;
+
+}
+
+.box{
+    /* background: url(images//top.jpg) no-repeat center center/cover; */
+    background-color: black;
+    /* border: 2px solid black; */
+    margin: -8px;
+    text-align: center;
+    justify-content: center;
+   
+   
+}
+
+.box:first-child{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding: 12px;
+    margin: 0px 0px;
+    
+}
+
+.topheading{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Playball', cursive;
+    text-align: center;
+    justify-content: center;
+    cursor: none;
+}
+
+ /* Background Image */
+
+/* img{
+    width: 102%;
+    margin: 7px -9px;
+    height: 100%;
+} */
+
+/* header */
+
+.header{
+    display: flex;
+    border: 2px solid green;
+    background-color: #ffae00 ;
+}
+
+.logo{
+    height: 136px;
+    /* filter: invert(100%); */
+    margin: -19px 0px;
+}
+
+
+/* //-----------------------------------------Navigation-------------------------------------// */
+
+.navbar{
+    display: flex;
+    position: relative;
+    /* margin: 22px 256px; */
+    margin: 10px 163px;
+    
+}
+
+.navbar ul{
+    display: flex;
+    /* margin: 0px auto; */
+    list-style: none;
+  /* margin: 5px 5px; */
+
+}
+
+.navbar ul li{
+    display: block;
+    padding: 3px 10px;
+
+    /* padding: 3px 14px; */
+    /* padding: 3px 15px; */
+    /* border: 2px solid red;
+    border-radius: 10px; */
+  
+}
+
+.navbar ul li a{
+    /* color: white; */
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Baloo 2', cursive;
+    padding: 0px 5px;
+    
+   
+}
+
+.navbar ul li a:hover{
+    /* color: black; */
+    /* color: #ffae00; */
+    color: white ;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    /* padding: 2px; */
+  
+}
+
+/* //---------------------------Button----------------------------------// */
+
+.button{
+display: flex;
+/* margin: 10px 10px; */
+margin: 37px 47px;
+}
+
+.btn{
+    /* color: white; */
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Baloo 2', cursive;
+    padding: 0px 11px;
+}
+.btn1{
+    /* color: white; */
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Baloo 2', cursive;
+    padding: 0px 11px;
+}
+
+.btn:hover{
+    /* color: #ffae00 ; */
+    color: white ;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+.btn1:hover{
+    /* color: #ffae00 ; */
+    color: white ;
+
+}
+
+/* //------------------------About--------------------// */
+
+
+ .about{
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+    /* background-color: cadetblue; */
+    background-color: black;
+   
+   
+ }
+
+
+ .aboutimg{
+     display: flex;
+    /* margin: 10px 10px; */
+    
+ }
+ 
+ .imgA{
+     display: flex;
+     margin: 23px auto;
+    /* margin: -27px 320px; */
+    /* margin: 25px auto; */
+ }
+
+
+ /*------------------------------------------- Section For Explanation------------------- */
+
+
+.explan{
+    /* border: 2px solid brown; */
+    margin-top: 140px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    /* height: 600px; */
+    height: 458px;
+    
+}
+
+
+.grid{
+    display: grid;
+    /* border: 2px solid green; */
+    /* height: 500px;
+     */
+     height: 443px;
+     margin: 0px 24px;
+
+}
+.grid1{
+    display: grid;
+    /* border: 2px solid green; */
+    /* height: 500px; */
+    height: 443px;
+    /* background: url(Images//designr.png) no-repeat; */
+    /* background-color: green; */
+    
+}
+.grid1-img{
+    height: 100px;
+    height: 442px;
+}
+
+.gridheading{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.3rem;
+    font-family: 'Baloo 2', cursive;
+    height: 0px;
+
+}
+
+.gridtext{
+    font-size: 20px;
+    font-family: 'Playball', cursive;
+    text-align: center;
+    justify-content: center;
+}
+
+
+hr{
+    width: 144px;
+    height: 6px;
+    /* color: black; */
+    background-color: black;
+    border-radius: 30px;
+}
+
+hr:hover{
+    background-color: #ffae00 ;
+}
+ 
+/* //---------------------Last Section------------------------------// */
+
+
+.footer{
+    display: grid;
+    /* border: 2px solid green; */
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #ffae00 ;
+    /* margin-bottom: 20px; */
+}
+
+.foot{
+            /* border: 2px solid red ; */
+}
+.foot1{
+    height: 250px;
+    /* border: 2px solid black; */
+}
+.foot2{
+    height: 250px;
+    /* border: 2px solid black; */
+}
+
+
+
+.foot1heading{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.footp1{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Playball', cursive;
+}
+.foot2heading{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.footp2{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Playball', cursive;
+}
+
+.copyright{
+    /* border: 2px solid red; */
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    /* top: 12px; */
+    font-family: 'Baloo 2', cursive;
+    color: white;
+    background-color: black;
+}
+
+/* .grid:first-child{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    padding: 12px;
+    margin: 0px 0px;
+    
+} */
+
+
+
+
+
+
+
+/* UTILITIES */
+/* font-family: 'Baloo 2', cursive; */
+/* font-family: 'Great Vibes', cursive; */
+/* font-family: 'Playball', cursive; */
+/*
+
+ /* animation-name: harry1; */
+ /* animation-name: harry2;  */
+ /* animation-duration: 8s; */
+ /* animation-iteration-count: 1; */
+ /* animation-fill-mode: alternate; */
+ /* animation-timing-function: ease-in-out; */
+ /* animation-delay: 3s; */
+ /* animation-direction: reverse;  */
+ /* background-color: #ffae00 ; */
